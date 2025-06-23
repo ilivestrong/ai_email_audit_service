@@ -1,0 +1,28 @@
+{
+  "name": "ai_email_audit_service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r ts-node/register --env-file=.env src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/mailparser": "^3.4.6",
+    "@types/multer": "^1.4.13",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.61",
+    "@langchain/openai": "^0.5.15",
+    "cheerio": "^1.1.0",
+    "express": "^5.1.0",
+    "langchain": "^0.3.29",
+    "mailparser": "^3.7.3",
+    "multer": "^2.0.1"
+  }
+}

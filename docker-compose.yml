@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  email-audit:
+    build: .
+    ports:
+      - "3149:3149"
+    env_file:
+      - .env
